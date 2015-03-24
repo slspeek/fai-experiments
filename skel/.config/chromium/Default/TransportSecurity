@@ -1,0 +1,11 @@
+{
+   "qhkH9gdxKhEU9AtSpJdNby361kf6xFvaSDsh29+guzw=": {
+      "created": 1392118272.084797,
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1423654272.084797,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "static_spki_hashes": [  ],
+      "sts_include_subdomains": false
+   }
+}

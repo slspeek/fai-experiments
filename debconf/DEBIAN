@@ -1,0 +1,21 @@
+exim4-config exim4/dc_eximconfig_configtype select local delivery only; not on a network
+locales locales/default_environment_locale select nl_NL.UTF-8
+locales locales/locales_to_be_generated multiselect nl_NL.UTF-8 UTF-8
+keyboard-configuration  keyboard-configuration/modelcode        string  pc105
+keyboard-configuration  keyboard-configuration/xkb-keymap       select  us
+keyboard-configuration  keyboard-configuration/variant  select  USA
+keyboard-configuration  keyboard-configuration/model    select  Generic 105-key (Intl) PC
+keyboard-configuration  keyboard-configuration/layoutcode       string  us
+keyboard-configuration  keyboard-configuration/optionscode      string  ctrl:nocaps,terminate:ctrl_alt_bksp
+console-setup	console-setup/codeset47	select	# Latin1 and Latin5 - western Europe and Turkic languages
+x11-common	x11-common/xwrapper/actual_allowed_users	string	console
+# Lettertype voor op de console:
+console-setup	console-setup/fontface47	select	TerminusBold
+console-setup	console-setup/fontsize-text47	select	8x16
+# Te gebruiken karaktercodering voor de console:
+console-setup	console-setup/charmap47	select	UTF-8
+console-setup	console-setup/codesetcode	string	Lat15
+# Choices: Enkel root, Enkel console-gebruikers, Iedereen
+console-setup	console-setup/store_defaults_in_debconf_db	boolean	true
+console-setup	console-setup/fontsize-fb47	select	16x32 (alleen framebuffer)
+console-setup	console-setup/fontsize	string	16x32

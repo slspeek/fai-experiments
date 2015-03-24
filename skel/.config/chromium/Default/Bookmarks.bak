@@ -1,0 +1,66 @@
+{
+   "checksum": "0cd6e0ee6333ca4474da34ff694dcf71",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13036591555645024",
+            "id": "11",
+            "name": "Piratenpartij | Voor een vrije informatiesamenleving.",
+            "type": "url",
+            "url": "http://www.piratenpartij.nl/"
+         }, {
+            "date_added": "13036590993926967",
+            "id": "8",
+            "name": "Front Page \u2014 Free Software Foundation \u2014 working together for free software",
+            "type": "url",
+            "url": "http://www.fsf.org/"
+         }, {
+            "date_added": "13036591027687938",
+            "id": "9",
+            "name": "FSFE - Free Software Foundation Europe",
+            "type": "url",
+            "url": "https://fsfe.org/"
+         }, {
+            "date_added": "0",
+            "id": "4",
+            "name": "Debian.org",
+            "type": "url",
+            "url": "http://www.debian.org/"
+         }, {
+            "date_added": "13036591468689357",
+            "id": "10",
+            "name": "Voor eindgebruikers - GNUAmsterdam",
+            "type": "url",
+            "url": "https://sites.google.com/site/gnuwerkinstructies/voor-eindgebruikers"
+         }, {
+            "date_added": "13036590966052509",
+            "id": "7",
+            "name": "fish shell",
+            "type": "url",
+            "url": "http://fishshell.com/"
+         } ],
+         "date_added": "13036590527191190",
+         "date_modified": "13036591555645024",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13036590527191228",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13036590527191267",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

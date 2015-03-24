@@ -1,0 +1,56 @@
+# /etc/inputrc - global inputrc for libreadline
+# See readline(3readline) and `info rluserman' for more information.
+
+# Be 8 bit clean.
+set input-meta on
+set output-meta on
+
+# To allow the use of 8bit-characters like the german umlauts, comment out
+# the line below. However this makes the meta key not work as a meta key,
+# which is annoying to those which don't need to type in 8-bit characters.
+# set convert-meta off
+
+# try to enable the application keypad when it is called.  Some systems
+# need this to enable the arrow keys.
+set enable-keypad on
+
+# see /usr/share/doc/bash/inputrc.arrows for other codes of arrow keys
+
+# some defaults / modifications for the emacs mode
+$if mode=emacs
+# allow the use of the Home/End keys
+#"\e[1~": beginning-of-line
+#"\e[4~": end-of-line
+# allow the use of the Delete/Insert keys
+"\e[3~": delete-char
+"\e[2~": quoted-insert
+# alternate mappings for "page up" and "page down" to search the history
+#"\e[5~": history-search-backward
+#"\e[6~": history-search-forward
+# mappings for Ctrl-left-arrow and Ctrl-right-arrow for word moving
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
+"\e[5C": forward-word
+"\e[5D": backward-word
+"\e\e[C": forward-word
+"\e\e[D": backward-word
+$if term=rxvt
+"\e[8~": end-of-line
+"\eOc": forward-word
+"\eOd": backward-word
+$endif
+# Bash completions does not use more.
+set page-completions off
+# Don't ask, just display possible completions.
+set completion-query-items -1
+# Denote file type when listing possible completions
+set visible-stats on
+# Double quote current or previous word
+"\C-xq": "\eb\"\ef\""
+# S-F3 Insert
+"\e[25~": "$(!!)"
+# S-F4 Insert isodate
+"\e[26~": "$(date +%Y%m%d)"
+# S-F5 Insert
+"\e[28~": "sudo apt-get install !-1:0 && !!"
+$endif

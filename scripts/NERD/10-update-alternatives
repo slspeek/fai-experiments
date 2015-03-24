@@ -1,0 +1,13 @@
+#!/bin/bash
+
+chroot /target update-alternatives --set editor /usr/bin/vim.basic
+chroot /target chown root:root /etc/sudoers
+
+cp -av /var/lib/fai/config/skel /target/etc/
+cp -av /var/lib/fai/config/das/* /target/usr/local/bin
+chmod +x /target/usr/local/bin/*.sh
+cp -v /var/lib/fai/config/debconf/NERD /target/tmp
+chroot /target debconf-set-selections  < /tmp/NERD
+chroot /target dpkg-reconfigure -fnoninteractive console-setup
+
+chroot /target apt-file update
