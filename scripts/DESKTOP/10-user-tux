@@ -1,0 +1,24 @@
+
+#! /bin/bash
+
+# (c) Thomas Lange, 2001-2010, lange@debian.org
+
+# fcopy -Mi /etc/sudoers
+ifclass XORG && {
+    fcopy -M /etc/X11/xorg.conf
+}
+
+# add a tux user account
+if  $ROOTCMD getent passwd tux ; then
+    $ROOTCMD deluser tux
+    $ROOTCMD rm -rf /home/tux
+fi
+
+$ROOTCMD adduser --disabled-login --gecos "Tux" tux
+$ROOTCMD usermod -p "$TUXPW" tux
+
+
+
+
+chmod -c 666 ${target}/dev/fd*
+chmod -c 444 ${target}/dev/sr*
