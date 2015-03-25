@@ -1,6 +1,8 @@
 PACKAGES aptitude 
 
-
+desktop-base
+cups
+gdm3
 alsa-base
 aspell-nl
 blender
