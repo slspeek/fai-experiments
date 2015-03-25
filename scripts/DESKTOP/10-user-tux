@@ -1,7 +1,6 @@
-
 #! /bin/bash
 
-# (c) Thomas Lange, 2001-2010, lange@debian.org
+# Thomas Lange, 2001-2010, lange@debian.org
 
 # fcopy -Mi /etc/sudoers
 ifclass XORG && {
@@ -16,9 +15,3 @@ fi
 
 $ROOTCMD adduser --disabled-login --gecos "Tux" tux
 $ROOTCMD usermod -p "$TUXPW" tux
-
-
-
-
-chmod -c 666 ${target}/dev/fd*
-chmod -c 444 ${target}/dev/sr*

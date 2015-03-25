@@ -40,3 +40,6 @@ xclip
 xinit
 xfonts-terminus
 xterm
+x11-xserver-utils
+chromium-browser
+chromium-l10n
