@@ -1,0 +1,7 @@
+#! /bin/bash
+
+# Thomas Lange, 2001-2010, lange@debian.org
+
+fcopy -Mi /etc/hosts
+$ROOTCMD sed -i -e "s/FAI_HOSTNAME/${FAI_HOSTNAME%%.*}/" /etc/hosts
+

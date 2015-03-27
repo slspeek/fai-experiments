@@ -6,8 +6,6 @@ $ROOTCMD chown root:root /etc/sudoers
 cp -av /var/lib/fai/config/skel /target/etc/
 cp -av /var/lib/fai/config/das/* /target/usr/local/bin
 chmod +x /target/usr/local/bin/*.sh
-cp -v /var/lib/fai/config/debconf/NERD /target/tmp
-$ROOTCMD debconf-set-selections  < /tmp/NERD
+$ROOTCMD debconf-set-selections  < /var/lib/fai/config/debconf/NERD
 $ROOTCMD dpkg-reconfigure -fnoninteractive console-setup
 
-$ROOTCMD apt-file update
