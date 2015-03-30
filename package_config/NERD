@@ -1,5 +1,8 @@
 
 PACKAGES aptitude 
+sane
+sane-utils
+ntpdate
 xfonts-terminus
 mpg123
 xserver-xorg
