@@ -1,0 +1,6 @@
+#! /bin/bash
+
+# (c) Thomas Lange, 2006,2009, lange@debian.org
+# create entries for removable media in fstab and directories in /media
+
+$ROOTCMD apt-get install --allow-unauthenticated deb-multimedia-keyring
