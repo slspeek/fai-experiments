@@ -1,11 +1,5 @@
 
 PACKAGES aptitude 
-sane
-sane-utils
-ntpdate
-xfonts-terminus
-mpg123
-xserver-xorg
 apt-file
 autocutsel
 bb
@@ -14,6 +8,8 @@ boxes
 build-essential
 bzr
 caca-utils
+chromium-browser
+chromium-l10n
 debian-reference
 dialog
 dict
@@ -30,19 +26,23 @@ iptraf
 mercurial
 moc
 most
+mpg123
 ninvaders
 nload
 nmap
-pv
+ntpdate
 pmount
+pv
 ranger 
+sane
+sane-utils
 tmux
 tree
 vim
-xclip
-xinit
-xfonts-terminus
-xterm
 x11-xserver-utils
-chromium-browser
-chromium-l10n
+xclip
+xfonts-terminus
+xfonts-terminus
+xinit
+xserver-xorg
+xterm
