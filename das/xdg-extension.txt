@@ -1,0 +1,15 @@
+#begin modified xdg-open
+
+MAGNET_APPLICATION=ktorrent
+
+if (echo "$url" | grep -q '^magnet:'); then
+       $MAGNET_APPLICATION "$url"
+       if [ $? -eq 0 ]; then
+           exit_success
+       else
+           exit_failure_operation_failed
+       fi
+fi
+
+#end modified xdg-open
+
