@@ -1,8 +1,64 @@
 {
-   "checksum": "c7697d4a110796928519f73c33f8bb12",
+   "checksum": "d6d7cd6b9b3482008cfbcf76885304cb",
    "roots": {
       "bookmark_bar": {
          "children": [ {
+            "children": [ {
+               "date_added": "13072542143863427",
+               "id": "19",
+               "name": "GNUDok Vrije Software",
+               "type": "url",
+               "url": "http://slspeek.github.io/installatie-debian/"
+            }, {
+               "date_added": "13072542094791233",
+               "id": "18",
+               "name": "Installeren met Synaptic",
+               "type": "url",
+               "url": "http://frank-jut.github.io/synaptic-handleiding/"
+            }, {
+               "date_added": "13072542164159393",
+               "id": "20",
+               "name": "Debian Wheezy Installatie",
+               "type": "url",
+               "url": "http://slspeek.github.io/installatie-debian/installatie.html"
+            }, {
+               "date_added": "13036591468689357",
+               "id": "10",
+               "name": "GNUDok online",
+               "type": "url",
+               "url": "https://sites.google.com/site/gnuwerkinstructies/voor-eindgebruikers"
+            } ],
+            "date_added": "13072542060376027",
+            "date_modified": "13072542347463512",
+            "id": "17",
+            "name": "GNUDok",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13072542476319355",
+               "id": "23",
+               "name": "Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site",
+               "type": "url",
+               "url": "https://thepiratebay.se/"
+            }, {
+               "date_added": "13072542491095355",
+               "id": "24",
+               "name": "Download Torrents. Fast and Free Torrent Downloads - KickassTorrents",
+               "type": "url",
+               "url": "http://kickass.to/"
+            } ],
+            "date_added": "13072542450329798",
+            "date_modified": "13072542491095355",
+            "id": "22",
+            "name": "Sharing",
+            "type": "folder"
+         }, {
+            "date_added": "13072542296183321",
+            "id": "21",
+            "name": "Debian Reference",
+            "type": "url",
+            "url": "file:///usr/share/doc/debian-reference-common/html/index.en.html"
+         }, {
             "date_added": "0",
             "id": "4",
             "name": "Debian.org",
@@ -11,15 +67,9 @@
          }, {
             "date_added": "13036590993926967",
             "id": "8",
-            "name": "Front Page \u2014 Free Software Foundation \u2014 working together for free software",
+            "name": "Front Page — Free Software Foundation — working together for free software",
             "type": "url",
             "url": "http://www.fsf.org/"
-         }, {
-            "date_added": "13036591027687938",
-            "id": "9",
-            "name": "FSFE - Free Software Foundation Europe",
-            "type": "url",
-            "url": "https://fsfe.org/"
          }, {
             "date_added": "13036591555645024",
             "id": "11",
@@ -27,46 +77,22 @@
             "type": "url",
             "url": "http://www.piratenpartij.nl/"
          }, {
-            "date_added": "13036591887592215",
-            "id": "13",
-            "name": "LXDE.org",
-            "type": "url",
-            "url": "http://lxde.org/"
-         }, {
-            "date_added": "13036591468689357",
-            "id": "10",
-            "name": "GNUDok",
-            "type": "url",
-            "url": "https://sites.google.com/site/gnuwerkinstructies/voor-eindgebruikers"
-         }, {
-            "date_added": "13036590966052509",
-            "id": "7",
-            "name": "fish shell",
-            "type": "url",
-            "url": "http://fishshell.com/"
-         }, {
             "date_added": "13036591829391231",
             "id": "12",
             "name": "thought maybe",
             "type": "url",
             "url": "http://thoughtmaybe.com/"
          }, {
-            "date_added": "13036592170701500",
-            "id": "14",
-            "name": "Debian Reference",
+            "date_added": "13072542571351247",
+            "id": "25",
+            "name": "Coursera - Free Online Courses From Top Universities",
             "type": "url",
-            "url": "file:///usr/share/doc/debian-reference-common/html/index.en.html"
-         }, {
-            "date_added": "13036592249104184",
-            "id": "15",
-            "name": "IndyMedia | - Vrij Media Centrum Nederland",
-            "type": "url",
-            "url": "https://www.indymedia.nl/"
+            "url": "https://www.coursera.org/"
          } ],
          "date_added": "13036590527191190",
-         "date_modified": "13036592249104184",
+         "date_modified": "13072542571351247",
          "id": "1",
-         "name": "Bookmarks Bar",
+         "name": "Bladwijzerbalk",
          "type": "folder"
       },
       "other": {
@@ -74,7 +100,7 @@
          "date_added": "13036590527191228",
          "date_modified": "0",
          "id": "2",
-         "name": "Other Bookmarks",
+         "name": "Andere bladwijzers",
          "type": "folder"
       },
       "synced": {
@@ -82,7 +108,7 @@
          "date_added": "13036590527191267",
          "date_modified": "0",
          "id": "3",
-         "name": "Mobile Bookmarks",
+         "name": "Mobiele bladwijzers",
          "type": "folder"
       }
    },
