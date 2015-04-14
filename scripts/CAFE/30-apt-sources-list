@@ -1,0 +1,9 @@
+#! /bin/bash
+
+# Thomas Lange, 2001-2010, lange@debian.org
+
+cp -v /var/lib/fai/config/faiserver-files/etc/fai/apt/sources.list /target/etc/apt/
+
+$ROOTCMD apt-get update
+$ROOTCMD apt-file update
+
