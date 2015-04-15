@@ -3,3 +3,9 @@ PACKAGES aptitude
 
 wicd-
 sudo-
+cups
+xsane
+sane
+sane-utils
+flashplugin-nonfree-
+ktorrent-

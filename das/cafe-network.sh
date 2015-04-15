@@ -18,11 +18,6 @@ iface eth0 inet static
 	dns-nameservers 8.8.8.8
 EOF
 
-cat > /etc/hosts <<EOF
-127.0.0.1	localhost
-10.0.30.10${NUMBER} cafe0${NUMBER}
-EOF
-
 cat > /etc/hostname <<EOF
 cafe0${NUMBER}
 EOF

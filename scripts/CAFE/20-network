@@ -1,0 +1,8 @@
+#! /bin/bash
+
+IP=$(ip a|grep eth|grep 'inet\b'|cut -d' ' -f6|cut -d'/' -f1)
+
+let LAST_POS=${#IP}-1
+NUMBER=${IP:LAST_POS}
+
+$ROOTCMD /usr/local/bin/cafe-network.sh $NUMBER
