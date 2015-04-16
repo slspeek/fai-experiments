@@ -12,6 +12,8 @@ case $HOSTNAME in
         echo "FAIBASE DEBIAN DHCPC DEMO NERD DESKTOP SALE";;
     cafe*)
         echo "FAIBASE DEBIAN DHCPC DEMO NERD DESKTOP SALE CAFE";;
+    office*)
+        echo "FAIBASE DEBIAN DHCPC DEMO NERD DESKTOP NISCLIENT";;
     gnomehost)
         echo "FAIBASE DEBIAN DHCPC DEMO XORG GNOME";;
     atom*)

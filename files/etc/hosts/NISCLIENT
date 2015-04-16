@@ -1,0 +1,47 @@
+127.0.0.1	localhost
+
+10.0.10.98	gnuarray
+10.0.10.99	gnunas
+10.0.10.100	nisoffice
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+10.0.10.101	office01
+10.0.10.102	office02
+10.0.10.103	office03
+10.0.10.104	office04
+10.0.10.105	office05
+10.0.10.106	office06
+10.0.10.107	office07
+10.0.10.108	office08
+10.0.10.109	office09
+10.0.10.110	office10
+10.0.10.111	office11
+10.0.10.112	office12
+10.0.10.113	office13
+10.0.10.114	office14
+10.0.10.115	office15
+10.0.10.116	office16
+10.0.10.117	office17
+10.0.10.118	office18
+10.0.10.119	office19
+10.0.10.120	office20
+10.0.10.121	office21
+10.0.10.122	office22
+10.0.10.123	office23
+10.0.10.124	office24
+10.0.10.125	office25
+10.0.10.126	office26
+10.0.10.127	office27
+10.0.10.128	office28
+10.0.10.129	office29
+10.0.10.130	office30
+
+
+10.0.20.60	planner
+10.0.20.61	planner01
+10.0.20.62	planner02
+
+82.95.145.130   pk

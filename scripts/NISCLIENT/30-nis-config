@@ -1,0 +1,3 @@
+#! /bin/bash
+
+$ROOTCMD /usr/local/bin/nis-client.sh 
