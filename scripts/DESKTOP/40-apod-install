@@ -1,6 +1,0 @@
-#! /bin/bash
-
-# Thomas Lange, 2001-2010, lange@debian.org
-
-$ROOTCMD /usr/local/bin/install-apod.sh
-$ROOTCMD sudo -u tux /usr/local/bin/apod-bg -config lxde

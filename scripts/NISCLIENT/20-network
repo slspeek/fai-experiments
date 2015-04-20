@@ -1,6 +1,6 @@
-#! /bin/bash
-
-HOSTNAME=${FAI_HOSTNAME%%.*}
+#! /bin/bash -x
+HOST=$(hostname)
+HOSTNAME=${HOST%%.*}
 NUMBER=${HOSTNAME:6}
 
 $ROOTCMD /usr/local/bin/nisclient-network.sh $NUMBER

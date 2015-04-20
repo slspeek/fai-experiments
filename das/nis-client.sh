@@ -1,10 +1,5 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-if id tux; then
-	if deluser tux; then
-		echo "Could not remove user tux"; exit 3;
-	fi
-fi
 shadowconfig off
 rm -rv /home/*
 sed -i -e '/\/home/ d' /etc/fstab
