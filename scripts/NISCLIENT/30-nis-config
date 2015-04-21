@@ -1,3 +1,5 @@
 #! /bin/bash
 
 $ROOTCMD /usr/local/bin/nis-client.sh 
+
+fcopy -Mi /etc/yp.conf
