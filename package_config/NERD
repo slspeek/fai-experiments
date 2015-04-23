@@ -23,6 +23,7 @@ gpm
 htop
 i3
 iptraf
+lsscsi
 mercurial
 moc
 most
@@ -36,6 +37,7 @@ pv
 ranger 
 sane
 sane-utils
+texlive
 tmux
 tree
 vim
@@ -44,5 +46,6 @@ xclip
 xfonts-terminus
 xfonts-terminus
 xinit
+xpdf
 xserver-xorg
 xterm
