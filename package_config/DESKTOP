@@ -13,6 +13,7 @@ cups
 desktop-base
 dia
 digikam
+dvd+rw-tools
 eog
 evince
 firmware-linux-nonfree
@@ -23,6 +24,7 @@ gdm3
 gimp
 gksu
 gpm
+growisofs
 iceweasel
 iceweasel-l10n-nl
 inkscape
