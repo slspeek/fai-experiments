@@ -21,6 +21,7 @@ frozen-bubble
 fuse
 gdm3
 gimp
+gksu
 gpm
 iceweasel
 iceweasel-l10n-nl
@@ -28,6 +29,7 @@ inkscape
 k3b
 kdenlive
 ktorrent
+libk3b6-extracodecs
 libdvdcss2
 libreoffice
 libreoffice-help-nl
