@@ -1,0 +1,3 @@
+#! /bin/bash
+
+$ROOTCMD sudo -u tux apod-bg -config lxde
