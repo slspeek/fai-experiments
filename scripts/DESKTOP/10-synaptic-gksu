@@ -1,3 +1,0 @@
-#! /bin/bash
-
-$ROOTCMD sed -i -e 's/Exec=synaptic-pkexec/Exec=gksu synaptic/' /usr/share/applications/synaptic.desktop

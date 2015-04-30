@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+systemctl start cups.service
+
+exit 0

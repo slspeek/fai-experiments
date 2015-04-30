@@ -280,7 +280,7 @@
 	</keybind>
 	<keybind key="W-c">
 		<action name="Execute">
-			<command>chromium-browser</command>
+			<command>chromium</command>
 		</action>
 	</keybind>
 	<keybind key="W-i">
