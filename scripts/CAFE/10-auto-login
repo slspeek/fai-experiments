@@ -1,0 +1,7 @@
+#! /bin/bash
+
+# Thomas Lange, 2001-2010, lange@debian.org
+
+fcopy -Mi /etc/lightdm/lightdm.conf
+
+

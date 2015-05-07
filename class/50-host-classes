@@ -9,7 +9,7 @@ case $HOSTNAME in
     debian*)
         echo "FAIBASE DEBIAN DHCPC DEMO NERD DESKTOP SALE";;
     cafe*)
-        echo "FAIBASE DEBIAN DHCPC DEMO NERD DESKTOP SALE CAFE";;
+        echo "FAIBASE DEBIAN DHCPC DEMO NERD DESKTOP CAFE";;
     office*)
         echo "FAIBASE DEBIAN DHCPC DEMO NERD DESKTOP NISCLIENT";;
     *)

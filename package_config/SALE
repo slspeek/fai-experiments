@@ -2,3 +2,4 @@ PACKAGES aptitude
 
 wicd
 openssh-server-
+sudo

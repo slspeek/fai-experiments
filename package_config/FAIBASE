@@ -1,5 +1,4 @@
 PACKAGES aptitude DEBIAN
-sudo
 fai-client
 cron
 debconf-utils
