@@ -2,16 +2,15 @@
 
 # assign classes to hosts
 
-# use a list of classes for our demo machine
 case $HOSTNAME in
     faiserver)
         echo "FAIBASE DEBIAN DEMO FAISERVER" ;;
     debian*)
-        echo "FAIBASE DEBIAN DHCPC DEMO NERD DESKTOP SALE";;
+        echo "FAIBASE DEBIAN DHCPC DEMO DEBIANAMS DESKTOP DESCRIBES USERTUX SALE";;
     cafe*)
-        echo "FAIBASE DEBIAN DHCPC DEMO NERD DESKTOP CAFE";;
+        echo "FAIBASE DEBIAN DHCPC DEMO DEBIANAMS NERD DESKTOP DESCRIBES USERTUX CAFE";;
     office*)
-        echo "FAIBASE DEBIAN DHCPC DEMO NERD DESKTOP NISCLIENT";;
+        echo "FAIBASE DEBIAN DHCPC DEMO DEBIANAMS NERD DESKTOP DESCRIBES NISCLIENT";;
     *)
         echo "FAIBASE DEBIAN DHCPC" ;;
 esac

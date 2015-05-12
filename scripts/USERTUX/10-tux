@@ -1,5 +1,5 @@
 #!/bin/bash
-# add a demo user account
+
 if ! $ROOTCMD getent passwd tux ; then
     $ROOTCMD adduser --disabled-login --gecos "Tux" tux
     $ROOTCMD usermod -p "$TUXPW" tux

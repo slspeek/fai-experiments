@@ -40,16 +40,12 @@ pv
 ranger 
 sane
 sane-utils
-texlive
-texlive-lang-dutch
 tmux
 tree
 vim
 x11-xserver-utils
 xclip
 xfonts-terminus
-xfonts-terminus
 xinit
-xpdf
 xserver-xorg
 xterm
