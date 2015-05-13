@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+alias logs='cd /var/log/fai/localhost/last'
+

@@ -7,7 +7,7 @@ fi
 cd /var/tmp
 wget -c https://storage.googleapis.com/golang/go${VERSION}.linux-${ARCH}.tar.gz
 cd /usr/local/
-tar xvzf /var/tmp/go${VERSION}.linux-${ARCH}.tar.gz
+tar xzf /var/tmp/go${VERSION}.linux-${ARCH}.tar.gz
 cd /usr/local/bin
 ln -s /usr/local/go/bin/go
 ln -s /usr/local/go/bin/gofmt

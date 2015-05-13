@@ -1,4 +1,4 @@
-PACKAGES aptitude 
+PACKAGES aptitude-r
 
 alsa-base
 alsa-utils
@@ -21,6 +21,7 @@ frozen-bubble
 fuse
 gdm3
 gimp
+git
 gksu
 gpm
 growisofs
@@ -57,6 +58,7 @@ scrot
 shotwell
 stellarium
 synaptic
+systemd-ui
 task-lxde-desktop
 torbrowser-launcher
 unrar

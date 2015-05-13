@@ -6,7 +6,7 @@ if test $(uname -m) = x86_64 ; then
 	ARCH=amd64
 fi
 cd /target/usr/local/
-tar xvzf /var/lib/fai/config/downloads/go${VERSION}.linux-${ARCH}.tar.gz
+tar xzf /var/lib/fai/config/downloads/go${VERSION}.linux-${ARCH}.tar.gz
 
 $ROOTCMD ln -s /usr/local/go/bin/go /usr/local/bin
 $ROOTCMD ln -s /usr/local/go/bin/gofmt /usr/local/bin

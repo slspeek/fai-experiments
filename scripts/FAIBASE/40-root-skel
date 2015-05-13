@@ -1,0 +1,4 @@
+#! /bin/bash
+
+fcopy -Mi /root/.bashrc
+fcopy -Mi /root/.tmux.conf

@@ -1,5 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 $ROOTCMD chown root:root /etc/sudoers
 $ROOTCMD chmod o=,g= /etc/sudoers
-$ROOTCMD sudo -u tux apod-bg -config lxde
