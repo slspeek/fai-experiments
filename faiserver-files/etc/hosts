@@ -1,0 +1,19 @@
+127.0.0.1	localhost
+10.0.30.125	faijes
+10.0.50.2	faiserver
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+10.0.50.101	debian01
+10.0.50.102	debian02
+10.0.50.103	debian03
+10.0.50.104	debian04
+10.0.50.105	debian05
+10.0.50.106	debian06
+10.0.50.107	debian07
+10.0.50.108	debian08
+10.0.50.121	cafe01
+
