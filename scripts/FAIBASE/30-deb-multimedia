@@ -3,8 +3,5 @@
 # (c) Thomas Lange, 2006,2009, lange@debian.org
 
 
-$ROOTCMD wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2014.2_all.deb
-$ROOTCMD dpkg -i deb-multimedia-keyring_2014.2_all.deb
+$ROOTCMD dpkg -i /var/lib/fai/config/downloads/deb-multimedia-keyring_2014.2_all.deb
 $ROOTCMD apt-get update
-$ROOTCMD rm deb-multimedia-keyring_2014.2_all.deb
-
