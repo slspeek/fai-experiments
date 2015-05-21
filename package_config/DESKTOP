@@ -1,5 +1,6 @@
 PACKAGES aptitude-r
 
+aisleriot
 alsa-base
 alsa-utils
 aspell-nl
@@ -19,10 +20,10 @@ firmware-linux-nonfree
 flashplugin-nonfree
 frozen-bubble
 fuse
-gdm3
 gimp
 git
 gksu
+gnome-mahjongg
 gpm
 growisofs
 iceweasel
@@ -30,6 +31,7 @@ iceweasel-l10n-nl
 inkscape
 k3b
 kdenlive
+kpat
 ktorrent
 libdvdcss2
 libk3b6-extracodecs
