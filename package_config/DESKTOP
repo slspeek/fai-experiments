@@ -1,5 +1,6 @@
 PACKAGES aptitude-r
 
+qjackctl ardour jack-tools
 aisleriot
 alsa-base
 alsa-utils

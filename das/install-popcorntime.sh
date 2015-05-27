@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION=0.3.7.1
+VERSION=0.3.7.2
 
 ARCH=Linux32
 if test $(uname -m) = x86_64 ; then
@@ -11,9 +11,4 @@ cd /tmp
 wget -c $URLBASE
 cd /usr/local/bin
 tar --overwrite -xvJf /tmp/$ARCHIVE
-
-to-jessie.sh
-apt-get install libudev1
-sed -i -e '/jessie/ s/\(.*\)/#\1/' /etc/apt/sources.list
-apt-get update
 
