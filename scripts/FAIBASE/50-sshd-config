@@ -1,0 +1,3 @@
+#! /bin/bash
+
+fcopy -Mi /etc/ssh/sshd_config

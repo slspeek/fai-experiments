@@ -1,0 +1,3 @@
+#! /bin/bash
+
+$ROOTCMD sed -i -e 's/ctrl:nocaps,//' /etc/default/keyboard
