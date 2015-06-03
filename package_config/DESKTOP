@@ -1,6 +1,7 @@
 PACKAGES aptitude-r
 
 qjackctl ardour jack-tools rakarrack
+ace-of-penguins
 aisleriot
 alsa-base
 alsa-utils
@@ -52,6 +53,7 @@ myspell-nl
 network-manager-
 ntpdate
 nvidia-detect
+numlockx
 pulseaudio
 pychess
 rhythmbox
@@ -69,4 +71,10 @@ vlc
 xfonts-terminus
 xine-ui
 xsane
+xscreensaver-screensaver-dizzy
+xscreensaver
+xscreensaver-data
+xscreensaver-data-extra
+xscreensaver-gl
+xscreensaver-gl-extra
 youtube-dl
