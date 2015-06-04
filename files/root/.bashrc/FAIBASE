@@ -2,4 +2,6 @@
 
 
 alias logs='cd /var/log/fai/localhost/last'
-
+alias lph='lp -dHP-Laser-4250tn'
+alias lps='lp -dSamsung-ML-2570-Series'
+alias ntp='ntpdate ntp.xs4all.nl'
