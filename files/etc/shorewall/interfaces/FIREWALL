@@ -13,7 +13,7 @@
 ###############################################################################
 #ZONE	INTERFACE	BROADCAST	OPTIONS
 net     eth1            detect          tcpflags,nosmurfs,routefilter,logmartians
-loc     eth5            detect          tcpflags,nosmurfs,routefilter,logmartians
+loc     eth2            detect          tcpflags,nosmurfs,routefilter,logmartians
 dmz     eth0            detect		tcpflags,nosmurfs,routefilter,logmartians
-gast	eth6		detect		tcpflags,nosmurfs,routefilter,logmartians
+gast	eth3		detect		tcpflags,nosmurfs,routefilter,logmartians
 

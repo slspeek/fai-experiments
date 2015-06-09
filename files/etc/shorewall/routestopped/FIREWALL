@@ -12,5 +12,5 @@
 # For information about entries in this file, type "man shorewall-routestopped"
 ##############################################################################
 #INTERFACE	HOST(S)
-eth5		-
+eth2		-
 eth1		-
