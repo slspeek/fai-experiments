@@ -1,0 +1,4 @@
+#! /bin/bash
+
+fcopy -Mi /etc/resolv.conf /etc/shorewall/{shorewall.conf,rules,policy,masq} /etc/network/interfaces
+fcopy -Mi /root/create-shorewall-conf-backup.sh /etc/shorewall/{routestopped,zones,interfaces,Makefile,params} 

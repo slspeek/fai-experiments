@@ -1,0 +1,87 @@
+#
+# Shorewall version 4.0 - Sample Rules File for three-interface configuration.
+# Copyright (C) 2006,2007 by the Shorewall Team
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# See the file README.txt for further details.
+#------------------------------------------------------------------------------------------------------------
+# For information about entries in this file, type "man shorewall-rules"
+#############################################################################################################
+#ACTION		SOURCE		DEST		PROTO	DEST	SOURCE		ORIGINAL	RATE		USER/	MARK
+#							PORT	PORT(S)		DEST		LIMIT		GROUP
+# Camera system
+DNAT	net	loc:10.0.10.240:8080	tcp	8080
+# Planner server
+DNAT	net	dmz:10.0.20.60:80	tcp	80
+# Build server Planner software
+DNAT	net	dmz:10.0.20.50	tcp	9000
+#
+#	Accept DNS connections from the firewall to the Internet
+#
+DNS(ACCEPT)	$FW		net
+DNS(ACCEPT)	loc		net
+#DNS(ACCEPT)	gast		net
+DNS(ACCEPT)	dmz		net
+ACCEPT		gast		loc	tcp 8080
+ACCEPT		gast		loc	tcp 34567
+#
+#
+#	Accept SSH connections from the local network to the firewall and DMZ
+#
+SSH(ACCEPT)     loc             $FW
+SSH(ACCEPT)     loc             dmz
+SSH(ACCEPT)	net		$FW
+SSH(ACCEPT)	$FW		dmz
+
+SMTP(ACCEPT)		loc		net
+FTP(ACCEPT)	gast	net
+SSH(ACCEPT)	gast	net
+
+#ACCEPT 		gast		net    tcp 80
+#ACCEPT 		gast		net    tcp 11371
+#ACCEPT 		gast		dmz    tcp 80
+#ACCEPT 		gast		dmz    tcp 8000
+#ACCEPT 		gast		net    tcp 8000
+#ACCEPT 		gast		net    tcp 443
+#ACCEPT 		gast		net    udp 123
+ACCEPT 		dmz		net    tcp 80
+ACCEPT 		dmz		net    tcp 443
+ACCEPT 		dmz		net    tcp 25
+ACCEPT 		dmz		net    udp 123
+ACCEPT 		dmz		net    tcp 9418
+ACCEPT 		dmz		net    tcp 873
+ACCEPT 		dmz		net    tcp 875
+#
+#
+# Drop Ping from the "bad" net zone.
+
+Ping(DROP)   	net             $FW
+
+#
+#       Make ping work bi-directionally between the dmz, net, Firewall and local zone
+#       (assumes that the loc-> net policy is ACCEPT).
+#
+
+Ping(ACCEPT)    loc             $FW
+Ping(ACCEPT)    dmz             $FW
+Ping(ACCEPT)	gast		$FW
+Ping(ACCEPT)    loc             dmz
+Ping(ACCEPT)    dmz             loc
+Ping(ACCEPT)    dmz             net
+Ping(ACCEPT)	loc		gast
+#Ping(ACCEPT)	gast		net
+
+ACCEPT		$FW		net		icmp
+ACCEPT		$FW		loc		icmp
+ACCEPT		$FW		dmz		icmp
+ACCEPT		$FW		gast		icmp
+
+# Uncomment this if using Proxy ARP and static NAT and you want to allow ping from
+# the net zone to the dmz and loc
+
+#Ping(ACCEPT)    net             dmz
+#Ping(ACCEPT)    net             loc

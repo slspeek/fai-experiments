@@ -1,0 +1,4 @@
+#!/bin/bash
+
+DATE_STAMP=$(date +%Y%m%d-%H%M)
+tar cvzf phobos-$DATE_STAMP.tar.gz /etc/network/interfaces /etc/resolv.conf /etc/shorewall /root/create_shorewall_conf_backup.sh
