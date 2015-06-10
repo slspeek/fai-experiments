@@ -1,5 +1,5 @@
-
 PACKAGES aptitude 
+apg
 apt-file
 autocutsel
 bb
@@ -26,8 +26,8 @@ inxi
 iptraf
 lame
 lsscsi
-mercurial
 menu
+mercurial
 mlocate
 moc
 most
