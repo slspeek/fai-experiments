@@ -13,8 +13,6 @@
 #############################################################################################################
 #ACTION		SOURCE		DEST		PROTO	DEST	SOURCE		ORIGINAL	RATE		USER/	MARK
 #							PORT	PORT(S)		DEST		LIMIT		GROUP
-# Camera system
-DNAT	net	loc:10.0.10.240:8080	tcp	8080
 # Planner server
 DNAT	net	dmz:10.0.20.60:80	tcp	80
 # Build server Planner software
