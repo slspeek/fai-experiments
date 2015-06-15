@@ -46,6 +46,7 @@ suckless-tools
 tmux
 tree
 vim
+w3m
 x11-xserver-utils
 xclip
 xfonts-terminus
