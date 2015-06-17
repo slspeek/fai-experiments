@@ -1,0 +1,27 @@
+PACKAGES aptitude 
+task-laptop
+firmware-b43-installer
+firmware-b43legacy-installer
+firmware-linux-free
+firmware-crystalhd
+firmware-adi
+firmware-atheros
+firmware-bnx2
+firmware-bnx2x
+firmware-brcm80211
+firmware-intelwimax
+firmware-ipw2x00
+firmware-ivtv
+firmware-iwlwifi
+firmware-libertas
+firmware-linux
+firmware-linux-nonfree
+firmware-myricom
+firmware-netxen
+firmware-qlogic
+firmware-ralink
+firmware-realtek
+firmware-samsung
+firmware-ti-connectivity
+firmware-zd1211
+

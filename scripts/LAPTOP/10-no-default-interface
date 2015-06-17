@@ -1,0 +1,3 @@
+#! /bin/bash
+
+$ROOTCMD sed -i -e '/iface eth0 inet/ d' /etc/network/interfaces
