@@ -57,7 +57,7 @@
             "id": "21",
             "name": "Debian Reference",
             "type": "url",
-            "url": "file:///usr/share/doc/debian-reference-common/html/index.en.html"
+            "url": "file:///usr/share/doc/debian-reference-common/docs/index.en.html"
          }, {
             "date_added": "0",
             "id": "4",
