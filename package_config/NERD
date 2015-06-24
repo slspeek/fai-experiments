@@ -2,6 +2,7 @@ PACKAGES aptitude
 apg
 apt-file
 autocutsel
+bash-completion
 bb
 beep
 boxes
