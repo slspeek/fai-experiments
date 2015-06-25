@@ -1,8 +1,9 @@
 127.0.0.1	localhost
 
-10.0.10.98	gnuarray
+10.0.10.98	gnunas02
 10.0.10.99	gnunas
 10.0.10.100	nisoffice
+10.0.10.101	nisoffice02
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     localhost ip6-localhost ip6-loopback
@@ -43,5 +44,13 @@ ff02::2 ip6-allrouters
 10.0.20.60	planner
 10.0.20.61	planner01
 10.0.20.62	planner02
+10.0.20.181	debmir
+
+10.0.30.130	fai32
+10.0.30.125	faijes
+
+10.0.30.101	cafe01
+10.0.30.102	cafe02
+10.0.30.103	cafe03
 
 82.95.145.130   pk
