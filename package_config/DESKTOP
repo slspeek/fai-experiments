@@ -1,5 +1,7 @@
 PACKAGES aptitude-r
 
+deluge-
+kodi
 qjackctl ardour jack-tools rakarrack
 ace-of-penguins
 aisleriot
