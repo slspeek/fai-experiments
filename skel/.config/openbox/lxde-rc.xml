@@ -266,6 +266,11 @@
 			<command>pcmanfm</command>
 		</action>
 	</keybind>
+	<keybind key="W-f">
+		<action name="Execute">
+			<command>catfish</command>
+		</action>
+	</keybind>
 	<keybind key="W-r">
 		<action name="Execute">
 			<command>lxpanelctl run</command>
@@ -298,27 +303,22 @@
 	</keybind>
 	<keybind key="W-v">
 		<action name="Execute">
-			<execute>vlc</execute>
+			<command>vlc</command>
 		</action>
 	</keybind>
 	<keybind key="W-l">
 		<action name="Execute">
-			<execute>libreoffice</execute>
+			<command>libreoffice</command>
 		</action>
 	</keybind>
 	<keybind key="W-z">
 		<action name="Execute">
-			<execute>gnome-calculator</execute>
+			<command>gnome-calculator</command>
 		</action>
 	</keybind>
 	<keybind key="W-s">
 		<action name="Execute">
-			<execute>shotwell</execute>
-		</action>
-	</keybind>
-	<keybind key="W-m">
-		<action name="Execute">
-			<execute>mplayer</execute>
+			<command>shotwell</command>
 		</action>
 	</keybind>
 	<keybind key="A-C-j">
@@ -377,22 +377,22 @@
 
 	<keybind key="XF86AudioLowerVolume">
 		<action name="Execute">
-			<execute>amixer set Master 5%- unmute</execute>
+			<command>amixer set Master 5%- unmute</command>
 		</action>
 	</keybind>
 	<keybind key="XF86AudioRaiseVolume">
 		<action name="Execute">
-			<execute>amixer set Master 5%+ unmute</execute>
+			<command>amixer set Master 5%+ unmute</command>
 		</action>
 	</keybind>
 	<keybind key="XF86AudioMute">
 		<action name="Execute">
-			<execute>amixer set Master toggle</execute>
+			<command>amixer set Master toggle</command>
 		</action>
 	</keybind>
 	<keybind key="W-y">
 		<action name="Execute">
-			<execute>xterm -e youtube-dl $(xclip -o -selection clipboard)</execute>
+			<command>xterm -e youtube-dl $(xclip -o -selection clipboard)</command>
 		</action>
 	</keybind>
 	<keybind key="A-F11">
