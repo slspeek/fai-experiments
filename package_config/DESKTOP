@@ -1,6 +1,8 @@
 PACKAGES aptitude-r
 
 deluge-
+gnome-calculator
+speedcrunch
 kodi
 qjackctl ardour jack-tools rakarrack
 ace-of-penguins

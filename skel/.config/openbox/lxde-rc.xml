@@ -251,12 +251,6 @@
 	</keybind>
 
 	<!-- Keybindings for running applications -->
-  <keybind key="Print"> 
-    <action name="Execute">
-    <execute>scrot -e 'mv $f ~/screenshots/'</execute>
-    </action>
-  </keybind>  
-   
 	<keybind key="W-C-q">
 		<action name="Execute">
 			<command>sudo /sbin/poweroff</command>
@@ -272,7 +266,6 @@
 			<command>pcmanfm</command>
 		</action>
 	</keybind>
-
 	<keybind key="W-r">
 		<action name="Execute">
 			<command>lxpanelctl run</command>
@@ -290,58 +283,74 @@
 	</keybind>
 	<keybind key="W-x">
 		<action name="Execute">
-			<command>xbmc</command>
+			<command>kodi</command>
 		</action>
 	</keybind>
-
 	<keybind key="W-k">
 		<action name="Execute">
 			<command>xkill</command>
 		</action>
 	</keybind>
-
 	<keybind key="W-t">
 		<action name="Execute">
 			<command>lxterminal</command>
 		</action>
 	</keybind>
-
+	<keybind key="W-v">
+		<action name="Execute">
+			<execute>vlc</execute>
+		</action>
+	</keybind>
+	<keybind key="W-l">
+		<action name="Execute">
+			<execute>libreoffice</execute>
+		</action>
+	</keybind>
+	<keybind key="W-z">
+		<action name="Execute">
+			<execute>gnome-calculator</execute>
+		</action>
+	</keybind>
+	<keybind key="W-s">
+		<action name="Execute">
+			<execute>shotwell</execute>
+		</action>
+	</keybind>
+	<keybind key="W-m">
+		<action name="Execute">
+			<execute>mplayer</execute>
+		</action>
+	</keybind>
 	<keybind key="A-C-j">
 		<action name="Execute">
 			<command>apod-bg -jump 1</command>
 		</action>
 	</keybind>
-
 	<keybind key="A-C-k">
 		<action name="Execute">
 			<command>apod-bg -jump -1</command>
 		</action>
 	</keybind>
-
 	<keybind key="A-C-S-j">
 		<action name="Execute">
 			<command>apod-bg -jump 10</command>
 		</action>
 	</keybind>
-
 	<keybind key="A-C-S-k">
 		<action name="Execute">
 			<command>apod-bg -jump -10</command>
 		</action>
 	</keybind>
-
 	<keybind key="A-C-i">
 		<action name="Execute">
 			<command>apod-bg -info</command>
 		</action>
 	</keybind>
-
 	<keybind key="A-C-r">
 		<action name="Execute">
 			<command>apod-bg -random</command>
 		</action>
 	</keybind>
-
 	<keybind key="A-C-m">
 		<action name="Execute">
 			<command>apod-bg -mode</command>
@@ -374,11 +383,6 @@
 	<keybind key="XF86AudioRaiseVolume">
 		<action name="Execute">
 			<execute>amixer set Master 5%+ unmute</execute>
-		</action>
-	</keybind>
-	<keybind key="W-v">
-		<action name="Execute">
-			<execute>vlc</execute>
 		</action>
 	</keybind>
 	<keybind key="XF86AudioMute">
