@@ -1,5 +1,6 @@
 PACKAGES aptitude 
 texlive
+texlive-latex-extra
 texlive-lang-dutch
 xpdf
 bc
