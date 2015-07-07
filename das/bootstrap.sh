@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-apt-get --yes --force-yes install mercurial
-cd /root
-hg clone --insecure https://code.google.com/p/debianamsterdam/ 
-sh /root/debianamsterdam/scripts/install/usr/local/bin/update-debianamsterdam.sh
+apt-get --yes --force-yes install git fai-client
+mkdir -p /srv/fai
+cd /srv/fai
+git clone https://github.com/slspeek/fai-experiments.git config
