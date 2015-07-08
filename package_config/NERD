@@ -9,6 +9,7 @@ beep
 boxes
 build-essential
 bzr
+ca-certificates
 caca-utils
 chromium-browser
 chromium-l10n
@@ -50,6 +51,7 @@ tmux
 tree
 vim
 w3m
+whois
 x11-xserver-utils
 xclip
 xfonts-terminus
