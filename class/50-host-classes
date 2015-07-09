@@ -3,7 +3,9 @@
 # assign classes to hosts
 
 case $HOSTNAME in
-    faiserver)
+    crypt*)
+        echo "FAIBASE DEBIAN DEMO DEBIANAMS ENCRYPTED" ;;
+    faiserver*)
         echo "FAIBASE DEBIAN DEMO DEBIANAMS NERD DESCRIBES SERVER FAISERVER" ;;
     laptop*)
         echo "FAIBASE DEBIAN DHCPC DEMO DEBIANAMS NERD DESKTOP DESCRIBES USERTUX SALE LAPTOP";;
