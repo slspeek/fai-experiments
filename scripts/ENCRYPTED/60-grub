@@ -1,0 +1,3 @@
+#! /bin/bash
+
+fcopy -Mi /etc/default/grub

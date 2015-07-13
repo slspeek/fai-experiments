@@ -5,7 +5,7 @@
 disk_config disk1 disklabel:msdos bootable:1 fstabkey:uuid
 
 primary /boot  254   ext4  rw,noatime,errors=remount-ro
-logical swap   200-1G   swap  sw
+logical -   200-1G   - -
 logical -   100-100%   - -
 
 disk_config cryptsetup
