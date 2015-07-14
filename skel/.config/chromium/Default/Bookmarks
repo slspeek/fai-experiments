@@ -46,7 +46,19 @@
                "name": "Download Torrents. Fast and Free Torrent Downloads - KickassTorrents",
                "type": "url",
                "url": "http://kickass.to/"
-            } ],
+            }, {
+               "date_added": "13072542491095355",
+               "id": "25",
+               "name": "IT eBooks",
+               "type": "url",
+               "url": "http://it-ebooks.info/"
+            } , {
+               "date_added": "13072542491095355",
+               "id": "26",
+               "name": "Open books for an open world",
+               "type": "url",
+               "url": "https://en.wikibooks.org/"
+            }  ],
             "date_added": "13072542450329798",
             "date_modified": "13072542491095355",
             "id": "22",
