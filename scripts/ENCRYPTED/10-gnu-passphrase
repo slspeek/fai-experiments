@@ -1,0 +1,3 @@
+#! /bin/bash
+
+echo gnu|cryptsetup luksAddKey /dev/sda6 -d /tmp/fai/crypt_dev_sda6
