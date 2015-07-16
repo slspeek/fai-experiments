@@ -64,12 +64,66 @@
             "id": "22",
             "name": "Sharing",
             "type": "folder"
-         }, {
+         },  {
+            "children": [ {
             "date_added": "13072542296183321",
             "id": "21",
             "name": "Debian Reference",
             "type": "url",
             "url": "file:///usr/share/doc/debian-reference-common/docs/index.en.html"
+						},{
+               "date_added": "13081518696084077",
+               "id": "248",
+               "name": "The Linux Documentation Project",
+               "sync_transaction_version": "98",
+               "type": "url",
+               "url": "http://www.tldp.org/index.html"
+            }, {
+               "date_added": "13081518747740018",
+               "id": "249",
+               "name": "Bash Guide for Beginners",
+               "sync_transaction_version": "101",
+               "type": "url",
+               "url": "http://www.tldp.org/LDP/Bash-Beginners-Guide/html/index.html"
+            }, {
+               "date_added": "13081518781820020",
+               "id": "250",
+               "name": "Introduction to Linux",
+               "sync_transaction_version": "104",
+               "type": "url",
+               "url": "http://www.tldp.org/LDP/intro-linux/html/index.html"
+            }, {
+               "date_added": "13081518844564068",
+               "id": "251",
+               "name": "The Linux System Administrator's Guide",
+               "sync_transaction_version": "107",
+               "type": "url",
+               "url": "http://www.tldp.org/LDP/sag/html/index.html"
+            }, {
+               "date_added": "13081518873356259",
+               "id": "252",
+               "name": "Home - Linux Professional Institute Linux Professional Institute",
+               "sync_transaction_version": "110",
+               "type": "url",
+               "url": "https://www.lpi.org/"
+            }, {
+               "date_added": "13081518998060172",
+               "id": "253",
+               "name": "IBM developerWorks : Linux Professional Institute (LPI) exam prep : Overview",
+               "sync_transaction_version": "113",
+               "type": "url",
+               "url": "http://www.ibm.com/developerworks/linux/lpi/index.html"
+            } ],
+            "date_added": "13081518686286192",
+            "date_modified": "13081518998060172",
+            "id": "247",
+            "meta_info": {
+               "stars.id": "ssf_d81cc4077c0c8f87",
+               "stars.isSynced": "true"
+            },
+            "name": "Leren",
+            "sync_transaction_version": "95",
+            "type": "folder"
          }, {
             "date_added": "0",
             "id": "4",
