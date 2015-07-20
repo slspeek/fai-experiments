@@ -1,3 +1,4 @@
 PACKAGES aptitude 
 
 debmirror
+sudo
