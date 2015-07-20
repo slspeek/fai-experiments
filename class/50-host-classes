@@ -5,6 +5,8 @@
 case $HOSTNAME in
     crypt*)
         echo "FAIBASE DEBIAN DEMO DEBIANAMS ENCRYPTED" ;;
+    debmir*)
+        echo "FAIBASE DEBIAN DEMO DEBIANAMS DEBMIRROR" ;;
     faiserver*)
         echo "FAIBASE DEBIAN DEMO DEBIANAMS NERD DESCRIBES SERVER FAISERVER" ;;
     lukstop*)
