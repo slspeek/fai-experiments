@@ -3,5 +3,5 @@
 fcopy -Mi /home/mirrorer/crontab.mirrorer
 $ROOTCMD chown root:root /etc/sudoers
 $ROOTCMD chmod o=,g= /etc/sudoers
-$ROOTCMD sudo -u mirrorer crontab crontab.mirrorer
+$ROOTCMD sudo -u mirrorer crontab /home/mirrorer/crontab.mirrorer
 
