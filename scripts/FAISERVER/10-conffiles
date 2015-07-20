@@ -3,6 +3,10 @@
 fcopy -Bv /etc/dhcp/dhcpd.conf
 fcopy -Bvr /etc/fai
 fcopy -v /etc/fai/apt/sources.list /etc/approx/approx.conf
+fcopy -v /etc/fai-i386/NFSROOT /etc/exports
+fcopy -v /etc/hosts /etc/network/interfaces
+fcopy -Mi /usr/local/bin/pxe.sh
+fcopy -Mi /usr/local/bin/pxe-i386.sh
 
 if [ $FAI_ACTION = "install" ]; then
 
@@ -12,8 +16,6 @@ if [ $FAI_ACTION = "install" ]; then
     rm -f $target/etc/resolv.conf
 
     # create some host entries
-    ainsl /etc/hosts "192.168.33.101 demohost"
-    ainsl /etc/hosts "192.168.33.102 gnomehost"
-    # add entries for 10 hosts called client*
-    perl -e 'for (1..10) {printf "192.168.33.%s client%02s\n",$_,$_;}' >> $target/etc/hosts
+    ainsl /etc/hosts "192.168.0.101 lukstop01"
+    ainsl /etc/hosts "192.168.0.102 debian01"
 fi
