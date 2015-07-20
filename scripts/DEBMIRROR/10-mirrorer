@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if ! $ROOTCMD getent passwd mirrorer ; then
+    $ROOTCMD adduser --disabled-login --gecos "Mirror user" mirrorer
+    #$ROOTCMD usermod -p "$TUXPW" tux
+    $ROOTCMD /usr/local/bin/add2groups.sh mirrorer	
+fi
