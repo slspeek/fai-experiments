@@ -2,3 +2,5 @@
 
 $ROOTCMD mkdir -p /srv/fai
 $ROOTCMD git clone https://github.com/slspeek/fai-experiments /srv/fai/config
+cd $target/srv/fai/config
+git checkout jessie
