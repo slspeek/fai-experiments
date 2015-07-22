@@ -1,0 +1,3 @@
+#! /bin/bash
+
+$ROOTCMD sed -i -e "s/NETWORK/${NETWORK}/g" /etc/exports

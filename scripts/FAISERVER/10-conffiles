@@ -16,6 +16,6 @@ if [ $FAI_ACTION = "install" ]; then
     rm -f $target/etc/resolv.conf
 
     # create some host entries
-    ainsl /etc/hosts "192.168.0.101 lukstop01"
-    ainsl /etc/hosts "192.168.0.102 debian01"
+    # ainsl /etc/hosts "192.168.0.101 lukstop01"
+    # ainsl /etc/hosts "192.168.0.102 debian01"
 fi

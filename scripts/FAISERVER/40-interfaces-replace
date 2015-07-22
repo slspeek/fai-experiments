@@ -1,0 +1,4 @@
+#! /bin/bash
+
+$ROOTCMD sed -i -e "s/IPADDR/${IPADDR}/g" /etc/network/interfaces
+$ROOTCMD sed -i -e "s/DEFAULTGW/${DEFAULTGW}/g" /etc/network/interfaces
