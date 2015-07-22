@@ -14,6 +14,7 @@ if [ $FAI_ACTION = "install" ]; then
     cp -a $target/etc/fai/apt $target/etc/
 
     rm -f $target/etc/resolv.conf
+    echo "nameserver 8.8.8.8">$target/etc/resolv.conf
 
     # create some host entries
     # ainsl /etc/hosts "192.168.0.101 lukstop01"
