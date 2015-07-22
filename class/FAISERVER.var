@@ -1,0 +1,7 @@
+DEFAULTGW=$(route -n|grep ^0.0.0.0|colrm 1 16|cut -d' ' -f1)
+NETWORK=$(ip a s eth0|grep 'inet\>'|colrm 1 9|cut -f1 -d' '|cut -d. -f1-3)
+HN=$(hostname)
+HN=${HN%%.*}
+LASTDIGIT=${HN: -1}
+let LAST_BYTE=240+$LASTDIGIT
+IPADDR=${NETWORK}.$LAST_BYTE
