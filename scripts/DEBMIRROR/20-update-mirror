@@ -1,3 +1,5 @@
 #!/bin/bash
 
 fcopy -Mi /home/mirrorer/update-mirror.sh
+$ROOTCMD chmod +x /home/mirrorer/update-mirror.sh
+$ROOTCMD chown mirrorer:mirrorer /home/mirrorer/update-mirror.sh
