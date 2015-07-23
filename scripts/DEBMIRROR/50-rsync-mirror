@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir -p /mirrors
+mount faiserver:/home/mirrorer/debian-mirrors /mirrors
+rsync -av /mirrors /home/mirrorer/debian-mirrors
+
