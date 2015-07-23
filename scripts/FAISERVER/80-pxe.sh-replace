@@ -1,4 +1,3 @@
 #! /bin/bash
 
-
-$ROOTCMD sed -i -e "s/FAISERVERIPADDR/${FAISERVERIPADDR}/g" /usr/local/bin/pxe.sh /usr/local/bin/pxe-i386.sh
+$ROOTCMD sed -i -e "s/IPADDR/${IPADDR}/g" /usr/local/bin/pxe.sh /usr/local/bin/pxe-i386.sh

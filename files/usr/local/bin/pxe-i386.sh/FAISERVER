@@ -2,4 +2,4 @@
 
 HOST=$1
 
-fai-chboot -u nfs://FAISERVERIPADDR/srv/fai/config -s 686-pae -IFv $HOST 
+fai-chboot -u nfs://IPADDR/srv/fai/config -s 686-pae -IFv $HOST 
