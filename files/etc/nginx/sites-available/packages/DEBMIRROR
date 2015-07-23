@@ -1,0 +1,14 @@
+server {
+
+    listen      80;
+    server_name 10.0.20.181;
+    autoindex   on;
+
+    access_log /var/log/nginx/packages-access.log;
+    error_log  /var/log/nginx/packages-error.log;
+
+    location / {
+        root /home/mirrorer/debian-mirrors;
+        index index.html;
+    }
+}
