@@ -1,4 +1,4 @@
 #!/bin/bash
 
 fcopy -Mi /etc/nginx/sites-available/packages
-$ROOTCMD bash -c "cd /etc/nginx/sites-enabled && ln -s /etc/nginx/sites-available/packages"
+$ROOTCMD bash -c "cd /etc/nginx/sites-enabled && ln -s /etc/nginx/sites-available/packages && rm default"
