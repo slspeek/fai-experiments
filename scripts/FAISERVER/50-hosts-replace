@@ -1,4 +1,4 @@
 #! /bin/bash
 
 $ROOTCMD sed -i -e "s/IPADDR/${IPADDR}/g" /etc/hosts
-$ROOTCMD sed -i -e "s/HOSTNAME/${HOST}/g" /etc/hosts
+$ROOTCMD sed -i -e "s/HOSTNAME/${HOSTNAME}/g" /etc/hosts
