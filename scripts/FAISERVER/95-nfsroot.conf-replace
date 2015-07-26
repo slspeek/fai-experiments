@@ -1,0 +1,3 @@
+#! /bin/bash
+
+$ROOTCMD sed -i -e "s/HOSTNAME/${HOSTNAME}/g" /etc/fai/nfsroot.conf

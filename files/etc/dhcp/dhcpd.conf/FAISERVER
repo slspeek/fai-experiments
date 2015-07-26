@@ -1,5 +1,5 @@
 # dhcpd.conf for fai
-# replace faiserver with the name of your install server
+# replace HOSTNAME with the name of your install server
 
 deny unknown-clients;
 option dhcp-max-message-size 2048; 
@@ -11,10 +11,10 @@ subnet NETWORK.0 netmask 255.255.255.0 {
    option routers DEFAULTGW;
    option domain-name "beowulf";
    option domain-name-servers 8.8.8.8;
-   option time-servers faiserver;
-   option ntp-servers faiserver;
-   server-name faiserver;
-   next-server faiserver;
+   option time-servers HOSTNAME;
+   option ntp-servers HOSTNAME;
+   server-name HOSTNAME;
+   next-server HOSTNAME;
    filename "fai/pxelinux.0";
 }
 
