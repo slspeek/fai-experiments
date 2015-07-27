@@ -28,6 +28,7 @@ dracut-network live-boot- initramfs-tools-
 # architecture dependend list of packages that are installed
 
 #git # git consumes a lot of disk space on the FAI CD (ISO 9660)
+cryptsetup
 
 PACKAGES aptitude I386
 grub-pc

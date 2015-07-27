@@ -2,7 +2,7 @@
 #
 LOCATION=/home/mirrorer/debian-mirrors
 DIST=jessie
-ARCHITECTURES=amd64
+ARCHITECTURES=i386,amd64
 
 
 echo "`basename $0`: Upgrading Debian security repository ..."
