@@ -7,6 +7,7 @@ fcopy -v /etc/fai-i386/NFSROOT /etc/exports
 fcopy -v /etc/hosts /etc/network/interfaces
 fcopy -Mi /usr/local/bin/pxe.sh
 fcopy -Mi /usr/local/bin/pxe-i386.sh
+fcopy -Mi /usr/local/bin/setup-fai.sh
 $ROOTCMD chmod +x /usr/local/bin/pxe.sh
 $ROOTCMD chmod +x /usr/local/bin/pxe-i386.sh
 
