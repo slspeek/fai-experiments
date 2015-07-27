@@ -10,5 +10,5 @@
 #
 /srv/fai/config NETWORK.0/24(async,ro,no_subtree_check)
 /srv/fai/nfsroot NETWORK.0/24(async,ro,no_subtree_check,no_root_squash)
-/srv/fai-i386/nfsroot NETWORK.0/24(async,ro,no_subtree_check,no_root_squash)
+/srv/fai/nfsroot-i386 NETWORK.0/24(async,ro,no_subtree_check,no_root_squash)
 /home/mirrorer/debian-mirrors NETWORK.0/24(async,ro,no_subtree_check,no_root_squash)
