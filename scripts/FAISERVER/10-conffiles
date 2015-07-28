@@ -4,12 +4,16 @@ fcopy -Bv /etc/dhcp/dhcpd.conf
 fcopy -Bvr /etc/fai
 fcopy -v /etc/fai/apt/sources.list /etc/approx/approx.conf
 fcopy -v /etc/fai-i386/NFSROOT /etc/exports
+fcopy -v /etc/fai-i386/fai.conf 
+fcopy -v /etc/fai-i386/nfsroot.conf
+fcopy -v /etc/fai-i386/apt/sources.list
 fcopy -v /etc/hosts /etc/network/interfaces
 fcopy -Mi /usr/local/bin/pxe.sh
 fcopy -Mi /usr/local/bin/pxe-i386.sh
 fcopy -Mi /usr/local/bin/setup-fai.sh
 $ROOTCMD chmod +x /usr/local/bin/pxe.sh
 $ROOTCMD chmod +x /usr/local/bin/pxe-i386.sh
+$ROOTCMD chmod +x /usr/local/bin/setup-fai.sh
 
 if [ $FAI_ACTION = "install" ]; then
 

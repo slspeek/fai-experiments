@@ -3,7 +3,6 @@ fai-quickstart
 
 isc-dhcp-client
 debmirror tcpdump
-apache2
 genisoimage grup-pc
 lftp
 syslinux-common
