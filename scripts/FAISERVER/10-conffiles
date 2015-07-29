@@ -6,6 +6,8 @@ fcopy -v /etc/fai/apt/sources.list /etc/approx/approx.conf
 fcopy -v /etc/fai-i386/NFSROOT /etc/exports
 fcopy -v /etc/fai-i386/fai.conf 
 fcopy -v /etc/fai-i386/nfsroot.conf
+fcopy -v /etc/fai-i386/live.conf
+fcopy -v /etc/fai-i386/grub.cfg
 fcopy -v /etc/fai-i386/apt/sources.list
 fcopy -v /etc/hosts /etc/network/interfaces
 fcopy -Mi /usr/local/bin/pxe.sh
