@@ -1,3 +1,5 @@
 #! /bin/bash
 
 $ROOTCMD sed -i -e "s/IPADDR/${IPADDR}/g" /etc/fai/apt/sources.list
+$ROOTCMD sed -i -e "s/IPADDR/${IPADDR}/g" /etc/fai-i386/apt/sources.list
+$ROOTCMD sed -i -e "s/IPADDR/${IPADDR}/g" /etc/apt/sources.list
