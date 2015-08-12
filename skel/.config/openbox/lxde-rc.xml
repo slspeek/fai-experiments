@@ -286,6 +286,11 @@
 			<command>iceweasel</command>
 		</action>
 	</keybind>
+	<keybind key="W-p">
+		<action name="Execute">
+			<command>Popcorn-Time</command>
+		</action>
+	</keybind>
 	<keybind key="W-x">
 		<action name="Execute">
 			<command>kodi</command>
