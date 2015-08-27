@@ -13,9 +13,11 @@ fcopy -v /etc/hosts /etc/network/interfaces
 fcopy -Mi /usr/local/bin/pxe.sh
 fcopy -Mi /usr/local/bin/pxe-i386.sh
 fcopy -Mi /usr/local/bin/setup-fai.sh
+fcopy -Mi /usr/local/bin/reconfigure-faiserver.sh
 $ROOTCMD chmod +x /usr/local/bin/pxe.sh
 $ROOTCMD chmod +x /usr/local/bin/pxe-i386.sh
 $ROOTCMD chmod +x /usr/local/bin/setup-fai.sh
+$ROOTCMD chmod +x /usr/local/bin/reconfigure-faiserver.sh
 
 if [ $FAI_ACTION = "install" ]; then
 
