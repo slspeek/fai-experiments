@@ -2,13 +2,17 @@
 
 IPADDR=$1 
 NETWORK=$2
-OLDIPADDR=$3
-OLDNETWORK=$4
+GATEWAY=$3
+OLDIPADDR=$4
+OLDNETWORK=$5
+OLDGATEWAY=$6
 
-SEDCMD="sed -i -e s/${OLDIPADDR}/$IPADDR/g;s/$OLDNETWORK/$NETWORK/g"
+SEDCMD="sed -i -e s/${OLDIPADDR}/$IPADDR/g;s/$OLDNETWORK/$NETWORK/g;s/$OLDGATEWAY/$GATEWAY/g"
 
 echo CMD: $SEDCMD
 
 $SEDCMD /usr/local/bin/pxe{,-i386}.sh /etc/exports /etc/dhcp/dhcpd.conf /etc/network/interfaces /etc/hosts /etc/fai/apt/sources.list 
+
+echo "nameserver 8.8.8.8">/etc/resolv.conf
 
 
