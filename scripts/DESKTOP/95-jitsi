@@ -1,0 +1,12 @@
+#! /bin/bash
+
+cp /var/lib/fai/config/downloads/jitsi*.deb /target/tmp
+
+if test $HOSTTYPE = x86_64; then
+	$ROOTCMD dpkg -i /tmp/jitsi_2.8.5426-1_amd64.deb
+else
+	$ROOTCMD dpkg -i /tmp/jitsi_2.8.5426-1_i386.deb
+fi
+
+$ROOTCMD apt-get -f install
+
