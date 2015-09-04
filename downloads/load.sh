@@ -20,3 +20,6 @@ ARCHIVE=Popcorn-Time-${VERSION}-${ARCH}.tar.xz
 URLBASE=https://get.popcorntime.io/build/$ARCHIVE
 wget -c $URLBASE
 
+wget -c https://download.jitsi.org/jitsi/debian/jitsi_2.8.5426-1_amd64.deb
+wget -c https://download.jitsi.org/jitsi/debian/jitsi_2.8.5426-1_i386.deb
+
