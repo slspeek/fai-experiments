@@ -13,7 +13,10 @@ openssh-client openssh-server
 strace
 time
 procinfo
-nullmailer
+exim4                                           
+exim4-base                                     
+exim4-config                                  
+exim4-daemon-light                           
 eject
 locales
 console-setup kbd
