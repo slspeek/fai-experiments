@@ -2,6 +2,7 @@
 
 # Thomas Lange, 2001-2010, lange@debian.org
 
-fcopy -Mi /etc/hosts
-$ROOTCMD sed -i -e "s/FAI_HOSTNAME/${FAI_HOSTNAME%%.*}/" /etc/hosts
+fcopy -Mi /etc/hosts /etc/hostname
+$ROOTCMD sed -i -e "s/FAI_HOSTNAME/${FAI_HOSTNAME%%.*}/" /etc/hosts /etc/hostname
+echo $ROOTCMD sed -i -e "s/FAI_HOSTNAME/${FAI_HOSTNAME%%.*}/" /etc/hosts /etc/hostname
 

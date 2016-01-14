@@ -1,6 +1,9 @@
 PACKAGES aptitude-r
 
 catfish
+me-tv
+dvb-apps
+zenity
 deluge-
 gnome-calculator
 speedcrunch

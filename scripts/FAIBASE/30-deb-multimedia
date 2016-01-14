@@ -2,6 +2,6 @@
 
 # (c) Thomas Lange, 2006,2009, lange@debian.org
 
-cp /var/lib/fai/config/downloads/deb-multimedia-keyring_2014.2_all.deb /target/tmp
-$ROOTCMD dpkg -i /tmp/deb-multimedia-keyring_2014.2_all.deb
+cp /var/lib/fai/config/downloads/deb-multimedia-keyring_2015.6.1_all.deb /target/tmp
+$ROOTCMD dpkg -i /tmp/deb-multimedia-keyring_2015.6.1_all.deb
 $ROOTCMD apt-get update
