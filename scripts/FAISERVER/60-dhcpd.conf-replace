@@ -2,4 +2,4 @@
 
 $ROOTCMD sed -i -e "s/NETWORK/${NETWORK}/g" /etc/dhcp/dhcpd.conf
 $ROOTCMD sed -i -e "s/DEFAULTGW/${DEFAULTGW}/g" /etc/dhcp/dhcpd.conf
-$ROOTCMD sed -i -e "s/HOSTNAME/${HOSTNAME}/g" /etc/dhcp/dhcpd.conf
+$ROOTCMD sed -i -e "s/HOSTNAME/${HOSTNAME%%.*}/g" /etc/dhcp/dhcpd.conf

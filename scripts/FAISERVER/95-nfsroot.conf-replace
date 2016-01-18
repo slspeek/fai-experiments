@@ -1,3 +1,3 @@
 #! /bin/bash
 
-$ROOTCMD sed -i -e "s/HOSTNAME/${HOSTNAME}/g" /etc/fai/nfsroot.conf /etc/fai-i386/nfsroot.conf
+$ROOTCMD sed -i -e "s/HOSTNAME/${HOSTNAME%%.*}/g" /etc/fai/nfsroot.conf /etc/fai-i386/nfsroot.conf
