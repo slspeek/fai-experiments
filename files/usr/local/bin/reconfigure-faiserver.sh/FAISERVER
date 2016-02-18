@@ -11,7 +11,7 @@ SEDCMD="sed -i -e s/${OLDIPADDR}/$IPADDR/g;s/$OLDNETWORK/$NETWORK/g;s/$OLDGATEWA
 
 echo CMD: $SEDCMD
 
-$SEDCMD /usr/local/bin/pxe{,-i386}.sh /etc/exports /etc/dhcp/dhcpd.conf /etc/network/interfaces /etc/hosts /etc/{,fai/}apt/sources.list 
+$SEDCMD /usr/local/bin/pxe{,-i386}.sh /etc/exports /etc/dhcp/dhcpd.conf /etc/network/interfaces /etc/hosts /etc/{fai-i386/,fai/}apt/sources.list 
 
 echo "nameserver 8.8.8.8">/etc/resolv.conf
 
