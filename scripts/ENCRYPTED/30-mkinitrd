@@ -24,8 +24,8 @@ if [ -b /dev/mmcblk0p1 ]; then
     umount /mnt
 fi
 
-/bin/cp /etc/initramfs-tools/modules /etc/initramfs-tools/modules.bak
-/bin/cat<<EOF >>/etc/initramfs-tools/modules
+$ROOTCMD /bin/cp /etc/initramfs-tools/modules /etc/initramfs-tools/modules.bak
+$ROOTCMD /bin/cat<<EOF >>/etc/initramfs-tools/modules
 aes-i586
 dm-mod
 dm-crypt
@@ -51,6 +51,6 @@ EOF
 TARGETVERSION=$(/bin/ls $target/lib/modules)
 export LANGUAGE=C
 export LC_ALL=C
-mkinitramfs -r $target -o $target/boot/initrd.img-${TARGETVERSION} ${TARGETVERSION}
+$ROOTCMD mkinitramfs -r / -o /boot/initrd.img-${TARGETVERSION} ${TARGETVERSION}
 
 exit $error
