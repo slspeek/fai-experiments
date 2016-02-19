@@ -24,8 +24,8 @@ if [ -b /dev/mmcblk0p1 ]; then
     umount /mnt
 fi
 
-$ROOTCMD /bin/cp /etc/initramfs-tools/modules /etc/initramfs-tools/modules.bak
-$ROOTCMD /bin/cat<<EOF >>/etc/initramfs-tools/modules
+
+/bin/cat<<EOF >>/target/etc/initramfs-tools/modules
 aes-i586
 dm-mod
 dm-crypt
@@ -53,4 +53,5 @@ export LANGUAGE=C
 export LC_ALL=C
 $ROOTCMD mkinitramfs -r / -o /boot/initrd.img-${TARGETVERSION} ${TARGETVERSION}
 
+$ROOTCMD uuidgen|{ read; echo "${REPLY//-}">$target/etc/machine-id; }
 exit $error

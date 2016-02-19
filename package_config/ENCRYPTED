@@ -1,3 +1,4 @@
 
-PACKAGES aptitude 
+PACKAGES install
 cryptsetup
+uuid-runtime
