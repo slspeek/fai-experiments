@@ -1,0 +1,12 @@
+
+PACKAGES aptitude 
+
+coq
+coqide
+coq-doc
+coq-theories
+octave
+proofgeneral
+proofgeneral-doc
+
+
