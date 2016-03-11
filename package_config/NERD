@@ -18,6 +18,7 @@ debian-reference
 dialog
 dict
 dnsutils
+dunst
 dwb
 feh
 finger
@@ -33,6 +34,7 @@ inxi
 iptraf
 lame
 lshw
+lsof
 lsscsi
 menu
 mercurial
@@ -61,3 +63,4 @@ xfonts-terminus
 xinit
 xserver-xorg
 xterm
+zenity
