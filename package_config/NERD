@@ -11,7 +11,7 @@ build-essential
 bzr
 ca-certificates
 caca-utils
-chromium-browser
+chromium
 chromium-l10n
 console-common
 debian-reference
