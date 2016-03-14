@@ -8,5 +8,5 @@ coq-theories
 octave
 proofgeneral
 proofgeneral-doc
-
-
+maxima
+wxmaxima

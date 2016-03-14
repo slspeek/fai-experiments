@@ -9,7 +9,7 @@ use-host-decl-names on;
 
 subnet NETWORK.0 netmask 255.255.255.0 {
    option routers DEFAULTGW;
-   option domain-name "beowulf";
+   option domain-name "lan";
    option domain-name-servers 8.8.8.8;
    option time-servers HOSTNAME;
    option ntp-servers HOSTNAME;
