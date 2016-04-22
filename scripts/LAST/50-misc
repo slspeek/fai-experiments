@@ -34,7 +34,7 @@ fi
 lskernels=$(echo $target/boot/vmlinu*)
 [ -f ${lskernels%% *} ] || echo "ERROR: No kernel was installed. Have a look at shell.log" >&2
 # copy sources.list
-#fcopy -iM /etc/apt/sources.list
+fcopy -iM /etc/apt/sources.list
 
 exit $error
 

@@ -14,6 +14,7 @@ caca-utils
 chromium
 chromium-l10n
 console-common
+console-xine
 debian-reference
 dialog
 dict
@@ -54,6 +55,7 @@ sane-utils
 suckless-tools
 tmux
 tree
+units
 vim
 w3m
 whois

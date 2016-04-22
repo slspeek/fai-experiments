@@ -1,12 +1,9 @@
 deb http://ftp.nluug.nl/pub/os/Linux/distr/debian/ jessie main contrib non-free
-deb-src http://ftp.nluug.nl/pub/os/Linux/distr/debian/ jessie main contrib non-free
+#deb-src http://ftp.nluug.nl/pub/os/Linux/distr/debian/ jessie main contrib non-free
 deb http://security.debian.org/ jessie/updates main contrib non-free
 
 deb http://deb-multimedia.org/ jessie main non-free
 
 #deb http://www.backports.org/debian jessie-backports main contrib non-free
 
-#deb http://10.0.20.181/debian jessie main contrib non-free
-#deb http://10.0.20.181/debian-security jessie/updates  main contrib non-free
-#deb http://10.0.20.181/multimedia jessie main non-free
-
+#deb http://dl.google.com/linux/chrome/deb/ stable main

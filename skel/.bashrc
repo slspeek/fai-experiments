@@ -80,6 +80,7 @@ fi
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
+alias si='sudo -i'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -95,3 +96,4 @@ rmkey ()
 
 PS1_BASE='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]'
 PROMPT_COMMAND='if [ $? -eq 0 ]; then PS1=$PS1_BASE\\$; else PS1=$PS1_BASE\\[\\033[01\;31m\\]\(\$?\)\*\\[\\033[00m\\]; fi; history -a'
+
