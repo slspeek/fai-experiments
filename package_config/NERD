@@ -9,8 +9,8 @@ beep
 boxes
 build-essential
 bzr
-ca-certificates
 caca-utils
+ca-certificates
 chromium
 chromium-l10n
 console-common
@@ -47,6 +47,8 @@ ninvaders
 nload
 nmap
 ntpdate
+ntpdate
+nvidia-detect
 pmount
 pv
 ranger 

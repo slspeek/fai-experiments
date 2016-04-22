@@ -1,0 +1,3 @@
+#! /bin/bash
+
+$ROOTCMD apt-get remove --purge gnome-mplayer deluge xscreensaver

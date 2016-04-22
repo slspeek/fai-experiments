@@ -1,5 +1,0 @@
-# some packages we need on a demo machine
-
-PACKAGES aptitude 
-fortune-mod fortunes
-rstat-client #rstatd
