@@ -14,5 +14,6 @@ ROOTPW='$1$PuRPjuUE$EPr2ckpLujlDyn96..K0s/'
 
 TUXPW='$1$9BJSfUo0$veR6chyao0F7ggIUleY.b1'
 
+LOGUSER=fai
 # errors in tasks greater than this value will cause the installation to stop
 STOP_ON_ERROR=700
