@@ -1,4 +1,0 @@
-#! /bin/bash
-set -x
-
-#$ROOTCMD apt-get --force-yes remove gnome-mplayer deluge{,-gtk,-common} gimp xscreensaver
