@@ -1,5 +1,9 @@
 PACKAGES aptitude 
 
 wicd
-openssh-server-
 sudo
+
+
+PACKAGES remove
+
+openssh-server

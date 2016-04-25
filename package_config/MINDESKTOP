@@ -41,3 +41,11 @@ task-lxde-desktop
 unrar
 vlc
 xfonts-terminus
+
+PACKAGES remove
+
+network-manager
+deluge-gtk
+deluge
+gimp
+xscreensaver
