@@ -1,6 +1,7 @@
 PACKAGES aptitude
 fai-quickstart
 
+openssh-client openssh-server
 isc-dhcp-client
 debmirror tcpdump
 genisoimage grup-pc
