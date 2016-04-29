@@ -10,8 +10,8 @@ for module in $MODULESLIST; do
     ainsl -a /etc/modules "^$module$"
 done
 
-fcopy -Mv /etc/hostname || echo $HOSTNAME > $target/etc/hostname
-ainsl -av /etc/mailname ${HOSTNAME}
+fcopy -Mv /etc/hostname || hostname -s > $target/etc/hostname
+ainsl -av /etc/mailname $(hostname -s)
 sed -i -e "s/^UTC.*/UTC=${UTC}/" $target/etc/default/rcS
 sed -i -e 's#/sbin/getty 38400#/sbin/getty -f /etc/issue.linuxlogo 38400#' ${target}/etc/inittab
 
