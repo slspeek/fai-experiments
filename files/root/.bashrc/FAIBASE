@@ -2,8 +2,9 @@
 
 
 alias logs='cd /var/log/fai/localhost/last'
-alias lph='lp -dHP-Laser-4250tn'
-alias lps='lp -dSamsung-ML-2570-Series'
 alias ntp='ntpdate ntp.xs4all.nl'
 alias vga='lspci|grep -i vga'
 alias bft='dpkg-reconfigure console-setup'
+alias vd='vi /etc/dhcp/dhcpd.conf; systemctl restart isc-dhcp-server.service'
+alias vh='vi /etc/hosts'
+alias fc='cd /srv/fai/config'

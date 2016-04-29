@@ -7,3 +7,12 @@ ff02::2 ip6-allrouters
 
 IPADDR	HOSTNAME
 
+
+#192.168.178.241	alexandria01
+#192.168.178.244	xandria04
+#192.168.178.100	debian01
+#192.168.178.101	nerdtop01
+#192.168.178.102	nerdtop02
+#192.168.178.103	mintop01
+#192.168.178.104	min02
+#192.168.178.105	minitop02
