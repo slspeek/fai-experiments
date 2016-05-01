@@ -14,7 +14,7 @@ ca-certificates
 chromium
 chromium-l10n
 console-common
-console-xine
+xine-console
 debian-reference
 dialog
 dict
