@@ -1,23 +1,24 @@
 PACKAGES aptitude DEBIAN
+console-setup kbd
 cron
 debconf-utils
-file
-hdparm
-less
-linuxlogo
-nfs-common
-rdate
-rsync
-strace
-time
-procinfo
+eject
 exim4                                           
 exim4-base                                     
 exim4-config                                  
 exim4-daemon-light                           
-eject
+file
+hdparm
+less
+linuxlogo
 locales
-console-setup kbd
-pciutils usbutils
 lvm2
+nfs-common
+ntpdate
+pciutils usbutils
+procinfo
+rdate
+rsync
+strace
+time
 uuid-runtime
