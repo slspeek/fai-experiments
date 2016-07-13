@@ -7,7 +7,6 @@ alsa-base
 alsa-utils
 aspell-nl
 cups
-cups-drivers
 cups-filters
 foomatic-db
 dvd+rw-tools
