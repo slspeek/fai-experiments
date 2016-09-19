@@ -37,6 +37,7 @@ sysvinit-core systemd-sysv-
 PACKAGES install I386
 grub-pc
 linux-image-686-pae
+linux-image-586
 
 # packages for Ubuntu natty/oneiric/precise:
 # linux-image-generic live-boot
