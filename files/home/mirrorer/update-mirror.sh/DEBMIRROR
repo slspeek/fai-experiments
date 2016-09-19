@@ -12,6 +12,7 @@ debmirror  -v \
 	-p \
 	--nosource \
 	--exclude=-dbg_* \
+  --rsync-extra=none \
 	--host=security.debian.org \
 	--root=debian-security/ \
 	--method=http \
@@ -28,6 +29,7 @@ debmirror  -v \
    -p \
 	 --no-check-gpg\
 	 --exclude=-dbg_* \
+   --rsync-extra=none \
 	 --nosource \
 	 --host=dl.xs4all.nl \
 	 --root=pub/mirror/debian \
@@ -45,6 +47,7 @@ debmirror  -v \
 	 -p \
 	 --no-check-gpg\
 	 --exclude=-dbg_* \
+   --rsync-extra=none \
 	 --nosource \
 	 --host=www.deb-multimedia.org \
 	 --root=/ \
