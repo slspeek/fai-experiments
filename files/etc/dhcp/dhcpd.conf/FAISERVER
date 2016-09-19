@@ -29,3 +29,6 @@ subnet NETWORK.0 netmask 255.255.255.0 {
 
 # Laptop van Jaap
 #host minitop02 {hardware ethernet 00:0f:20:27:67:a9;fixed-address minitop02;}
+
+# Laptop van Gerbina voor Emma
+#host minitop02 {hardware ethernet 00:40:ca:c0:7e:d0;fixed-address minitop02;}
